@@ -31,4 +31,12 @@ describe('Funcionalidade Página de produtos', () => {
     
     });
 
+    it('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
+        cy.addProduto('Ariel Roll Sleeve Sweatshirt', 'M', 'Red', 2)
+    });
+
+    it('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
+        cy.addProduto('Aether Gym Pant', '32', 'Brown', 2)
+    });
+
 });
