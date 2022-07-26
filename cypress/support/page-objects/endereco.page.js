@@ -13,10 +13,9 @@ class EnderecoPage {
         cy.get('#billing_city').clear().type(cidade)
         cy.get('#select2-billing_state-container').click().type(estado + '{enter}')
         cy.get('#billing_postcode').clear().type(cep)
-        cy.get('#billing_postcode').clear().type(telefone)
+        cy.get('#billing_phone').clear().type(telefone)
         cy.get('#billing_email').clear().type(email)
-        cy.get('.button').click()
-
+        cy.get(':nth-child(2) > .button').click()
     }
     
     editarEnderecoEntrega(){
