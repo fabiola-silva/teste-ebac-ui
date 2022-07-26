@@ -1,0 +1,42 @@
+[
+    {
+        "nome":"Ana",
+        "sobrenome":"Santos",
+        "empresa":"Tec",        
+        "pais":"Brasil", 
+        "endereco":"Osasco", 
+        "numero":"2525", 
+        "cidade":"Campinas",
+        "estado":"São paulo",
+        "cep":"69530555",
+        "telefone":"11992928585", 
+        "email":"tec@gmmail.com"
+    },
+    {
+        "nome":"Lucas",
+        "sobrenome":"Barros",
+        "empresa":"Tenologia",        
+        "pais":"Brasil", 
+        "endereco":"Osasco", 
+        "numero":"2020", 
+        "cidade":"Florianopolis",
+        "estado":"Belo Horizonte",
+        "cep":"69530552",
+        "telefone":"11992928566", 
+        "email":"teste@teste.com"
+    },
+    {
+        "nome":"Bianca",
+        "sobrenome":"Barros",
+        "empresa":"Ebac",        
+        "pais":"Brasil", 
+        "endereco":"Rua dos Andrades", 
+        "numero":"2110", 
+        "cidade":"Florianopolis",
+        "estado":"Belo Horizonte",
+        "cep":"69530352",
+        "telefone":"11992628566", 
+        "email":"teste@teste.com"
+    }
+
+]
